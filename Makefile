@@ -5,5 +5,8 @@ ENV_FILE=environment.txt
 gen_envfile:
 	conda list -n $(ENV_NAME) --explicit > $(ENV_FILE)
 
-set_env:
+create_conda: $(ENV_FILE)
 	conda create -n $(ENV_NAME) --file=$(ENV_FILE)
+
+activate_conda:
+	conda activate $(ENV_NAME)
