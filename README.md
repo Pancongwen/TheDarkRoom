@@ -34,3 +34,9 @@ A game practice.
     ```bash
     which python
     ```
+
+## Quick start
+
+```bash
+python theDarkRoom.py
+```
