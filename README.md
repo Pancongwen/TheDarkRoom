@@ -38,5 +38,5 @@ A game practice.
 ## Quick start
 
 ```bash
-python theDarkRoom.py
+make play
 ```
